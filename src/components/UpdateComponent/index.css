@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+
+.btn{
+    width: 200px;
+    height: 200px;
+    margin: 20 auto;
+    border: 1px solid red;
+}
+.btn:hover{
+    cursor: pointer;
+}

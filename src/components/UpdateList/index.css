@@ -1,0 +1,29 @@
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 50px auto;
+}
+.main .content{
+    border: 1px solid #333;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    overflow-y: auto;
+}
+.content li{
+    background: #f8f8f8;
+}
+.content li:hover{
+    cursor: pointer;
+}
+.main .select{
+    border: 1px solid #333;
+    width: 200px;
+    padding: 10px;
+    overflow-y: auto;
+}
+.content .selected{
+    background: #E6F6F1;
+}
